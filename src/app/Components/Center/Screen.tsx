@@ -521,7 +521,10 @@ const Screen = ({
       ) {
         if (vegaspec.data[0].transform[0].type == "extent") {
           contentArray = [vegaspec.data[0].transform[0].field];
-        } else contentArray = vegaspec.data[0].transform[0].groupby;
+        } else {
+          const grpby:any=vegaspec.data[0].transform[0];
+          contentArray = grpby.groupby;
+        }
       }
       const view = new View(parse(vegaspec), { renderer: "none" });
       const svg = await view.toSVG();
