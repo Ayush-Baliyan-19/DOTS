@@ -1,0 +1,55 @@
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .open .content {
+    max-height: 200px; /* Adjust the value as per your requirement */
+    transition: max-height 0.3s ease-in;
+  }
+  
+  /* Add rotation animation for the triangle icon */
+  .rotate-90 {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .rotate-180 {
+    transition: transform 0.3s ease;
+  }
+
+
+  .main-left::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+  }
+  .main-left::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  .main-left::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  .main-left::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+  }
+  .main-left::-webkit-scrollbar-thumb:active {
+    background: #000000;
+  }
+  .main-left::-webkit-scrollbar-track {
+    background: #666666;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  .main-left::-webkit-scrollbar-track:hover {
+    background: #666666;
+  }
+  .main-left::-webkit-scrollbar-track:active {
+    background: #333333;
+  }
+  .main-left::-webkit-scrollbar-corner {
+    background: transparent;
+  }

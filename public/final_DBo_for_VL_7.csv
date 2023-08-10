@@ -1,0 +1,8 @@
+DBo,vis_name,gender,NationalITy,PlaceofBirth,StageID,GradeID,SectionID,Topic,Semester,Relation,raisedhands,VisITedResources,AnnouncementsView,Discussion,ParentAnsweringSurvey,ParentschoolSatisfaction,StudentAbsenceDays,Class
+Rep_DBo_14,BarChartxOffNominal,,,,,,,,,color,,,,,x
+Rep_DBo_14,Histogram,,,,,,,,,,x
+Rep_DBo_14,Histogram,,,,,,,,,,,,,x
+Rep_DBo_14,BarChartxOffNominal,color,,,,,x
+Rep_DBo_14,BarChartOrdinal,,,,,,,,,,,,x,,,,color
+Rep_DBo_14,BarChartxOffOrdinal,,,,color,,,,,,,,,,,,,x
+Rep_DBo_14,Histogram,,,,,,,,,,,x,
